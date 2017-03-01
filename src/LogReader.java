@@ -6,6 +6,7 @@ public class LogReader {
 	
 	ArrayList<CombatInstance> combatList;
 	BufferedReader log;
+	CombatInstance exchange;
 	String[] logLine;
 	
 	public LogReader(BufferedReader log)
@@ -18,6 +19,7 @@ public class LogReader {
 	{
 		String temp = log.readLine();
 		logLine = temp.split("\\s+");
+		exchange = new CombatInstance(logLine[0]); //first string is either 'you' or 'player'
 		
 	}
 	
