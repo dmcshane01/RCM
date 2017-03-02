@@ -1,0 +1,657 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+Forcing GfxDevice: Direct3D 9
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dumx.dll 21.21.13.7653]
+    Renderer: NVIDIA GeForce GTX 970
+    Vendor:   NVIDIA
+    VRAM:     4058 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0 ATOC=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.West.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\ConvexHull.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\ConvexHull.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.CJK.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.CJK.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.MidEast.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.MidEast.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.Other.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.Other.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.Rare.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.Rare.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.West.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\I18N.West.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Ionic.Zip.Reduced.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\LZ4.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\LZ4.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Behave.Unity.Assets.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Behave.Unity.Assets.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Behave.Unity.Runtime.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Behave.Unity.Runtime.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\protobuf-net.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\protobuf-net.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\RustBuild.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\RustBuild.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\EasyAntiCheat.Client.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\EasyAntiCheat.Client.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\EasyAntiCheat.Server.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\EasyAntiCheat.Server.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Console.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Console.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Input.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Input.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Network.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Network.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Raknet.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Raknet.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Rcon.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Rcon.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.System.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.System.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.UnityEngine.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Rust.Data.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Rust.Data.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Rust.Global.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Rust.Global.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Rust.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Rust.UI.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Rust.Workshop.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Rust.Workshop.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Steamworks.dll (this message is harmless)
+Loading C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\Facepunch.Steamworks.dll into Unity Child Domain
+- Completed reload, in  0.189 seconds
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\System.Core.dll (this message is harmless)
+OnLevelWasLoaded was found on LeanTween
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+Shader 'Nature/Terrain/Diffuse': dependency 'AddPassShader' shader 'Hidden/TerrainEngine/Splatmap/Diffuse-AddPass' not found
+Shader 'Hidden/TerrainEngine/Splatmap/Specular-AddPass': fallback shader 'Hidden/TerrainEngine/Splatmap/Diffuse-AddPass' not found
+Shader 'Hidden/TerrainEngine/Splatmap/Standard-AddPass': fallback shader 'Hidden/TerrainEngine/Splatmap/Diffuse-AddPass' not found
+desktop: 1920x1080 144Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.065247 ms
+Bootstart Startup
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+System
+	Name: DESKTOP-9I4SOHN
+	OS:   Windows 10  (10.0.0) 64bit
+
+CPU
+	Model:  Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz
+	Cores:  4
+	Memory: 16333 MB
+
+GPU
+	Model:  NVIDIA GeForce GTX 970
+	API:    Direct3D 9.0c [nvd3dumx.dll 21.21.13.7653]
+	Memory: 4058 MB
+	SM:     30
+
+Memory
+	Private:     0 MB
+	Working Set: 0 MB
+
+Mono
+	Collects: 3
+	Memory:   0 MB
+
+
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Facepunch.Steamworks Unity: WindowsPlayer
+Facepunch.Steamworks Os: Windows
+Facepunch.Steamworks Arch: x64
+Command Line: "RustClient.exe" "-eac" "-force-d3d9" "-show-screen-selector" 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Command 'eac' not found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Command 'force-d3d9' not found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Command 'show-screen-selector' not found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+SteamID: 76561197979028521 (Shere Kahn)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Building Items Took: 1.0195644 seconds / Items: 320 / Blueprints: 206
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Command 'eac' not found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Command 'force-d3d9' not found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Command 'show-screen-selector' not found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Config Loaded
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+EasyAntiCheat Loaded
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 72)
+UnloadTime: 4.474272 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 24152.
+Total: 13.348504 ms (FindLiveObjects: 0.812466 ms CreateObjectMapping: 1.529848 ms MarkObjects: 10.963766 ms  DeleteObjects: 0.041837 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 72)
+UnloadTime: 2.475141 ms
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 37394.
+Total: 26.860554 ms (FindLiveObjects: 1.683154 ms CreateObjectMapping: 3.128450 ms MarkObjects: 21.962933 ms  DeleteObjects: 0.085137 ms)
+
+Connecting..
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 72)
+WARNING: Shader Unsupported: 'Hidden/NoiseAndGrainDX11' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/NoiseAndGrainDX11' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Setting to default shader.
+UnloadTime: 3.892935 ms
+Generating terrain of size 3500 with seed 182943
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[OcclusionCulling] HiZ culling disabled due to graphics device type Direct3D9 not supported.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 49828.
+Total: 33.942211 ms (FindLiveObjects: 2.037749 ms CreateObjectMapping: 4.840277 ms MarkObjects: 26.828373 ms  DeleteObjects: 0.234933 ms)
+
+[41.4s] Procedural Generation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[0.9s] Saving World
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+WARNING: Shader Unsupported: 'Hidden/CopyBlockCompress' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/CopyBlockCompress' - Setting to default shader.
+[TerrainTexturing] Base pyramid size: 4096, mips: 13, compression: False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 126.1837ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Destroyed 166 map networkables
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\System.Runtime.Serialization.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\SteamLibrary\steamapps\common\Rust\RustClient_Data\Managed\System.Data.dll (this message is harmless)
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 97.5783ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Lost data detected. Rebuilding base pyramid.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 76.5723ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 200.6647ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Lost data detected. Rebuilding base pyramid.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: needs reset, doing it
+FullResetD3DDevice
+ResetD3DDevice
+dev->Reset
+D3Dwindow device not lost anymore
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 87.584ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 281.268ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Lost data detected. Rebuilding base pyramid.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 105.0987ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 82.5515ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Lost data detected. Rebuilding base pyramid.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 83.5533ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 108.604ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Lost data detected. Rebuilding base pyramid.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 77.5577ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 951)
+
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 81.5782ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Lost data detected. Rebuilding base pyramid.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[Water] Initializing, Mesh: 16000, No Simulation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: needs reset, doing it
+FullResetD3DDevice
+ResetD3DDevice
+dev->Reset
+D3Dwindow device not lost anymore
+[TerrainTexturing] Lost data detected. Rebuilding coarse height data.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[TerrainTexturing] Caching coarse height map took 68.0649ms (src: 2049, dst: 1024)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You died: Bleeding
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+LocalPlayer.Entity.SecondsSinceDeath: 0.01342773
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+time    attacker id     target           id     weapon                                                         ammo                    area    distance old_hp new_hp info 
+1575.3s you      329136 player           321133 assets/prefabs/weapons/rock/rock.entity.prefab                 N/A                     chest   0.8m     37.6   27.6        
+1520.3s you      329136 loot_barrel_1    330381 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 1.1m     50.0   14.0        
+1519.1s you      329136 loot_barrel_1    330381 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 1.1m     14.0   0.0         
+1220.8s you      329136 loot_barrel_2    337422 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 0.8m     35.0   0.0         
+1218.7s you      329136 loot_barrel_2    337425 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 0.6m     35.0   0.0         
+1202.6s you      329136 player           293387 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     head    1.0m     47.7   0.0         
+1171.6s you      329136 loot_barrel_1    321914 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 1.0m     50.0   14.0        
+1170.4s you      329136 loot_barrel_1    321914 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 1.0m     14.0   0.0         
+1115.5s you      329136 loot-barrel-1    261491 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 0.9m     50.0   14.0        
+1114.1s you      329136 loot-barrel-1    261491 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 0.9m     14.0   0.0         
+870.6s  you      329136 loot_barrel_1    21095  assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 1.3m     50.0   14.0        
+869.3s  you      329136 loot_barrel_1    21095  assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 1.1m     14.0   0.0         
+851.6s  you      329136 loot-barrel-1    233316 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 0.9m     50.0   14.0        
+850.3s  you      329136 loot-barrel-1    233316 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab N/A                     generic 0.9m     14.0   0.0         
+376.5s  you      329136 loot_barrel_1    351701 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.0m     50.0   27.5        
+374.8s  you      329136 loot_barrel_1    351701 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.2m     27.5   5.0         
+373.1s  you      329136 loot_barrel_1    351701 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.0m     5.0    0.0         
+371.0s  you      329136 loot_barrel_2    351704 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.0m     35.0   12.5        
+369.4s  you      329136 loot_barrel_2    351704 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.2m     12.5   0.0         
+367.7s  you      329136 loot_barrel_2    351698 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 0.8m     35.0   12.5        
+366.0s  you      329136 loot_barrel_2    351698 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.0m     12.5   0.0         
+334.6s  you      329136 loot_barrel_1    372645 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.3m     50.0   27.5        
+332.9s  you      329136 loot_barrel_1    372645 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.0m     27.5   5.0         
+331.0s  you      329136 loot_barrel_1    372645 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.0m     5.0    0.0         
+323.2s  you      329136 loot_barrel_2    372648 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 1.0m     35.0   12.5        
+321.5s  you      329136 loot_barrel_2    372648 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab N/A                     generic 0.6m     12.5   0.0         
+300.8s  player   142113 you              329136 semi_auto_rifle.entity                                         riflebullet             stomach 134.3m   62.0   30.0        
+253.8s  bear     304588 you              329136 N/A                                                            N/A                     generic 2.6m     42.1   2.1         
+13.3s   you      329136 player           215465 spear_wooden.entity                                            wooden_spear.projectile head    3.3m     97.0   37.0        
+2.6s    you      329136 door.hinged.wood 342640 assets/prefabs/weapons/rock/rock.entity.prefab                 N/A                     generic 0.9m     200.0  200.0       
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You died: killed by ssmguitar16 (76561198069513218)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+LocalPlayer.Entity.SecondsSinceDeath: 0.007080078
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You died: suicide by Suicide
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+LocalPlayer.Entity.SecondsSinceDeath: 0.007080078
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You died: killed by WoWFan400 (76561198347756068)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+LocalPlayer.Entity.SecondsSinceDeath: 0.008300781
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You died: suicide by Suicide
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+LocalPlayer.Entity.SecondsSinceDeath: 0.006347656
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You died: killed by EMMONS (76561198041283717)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+LocalPlayer.Entity.SecondsSinceDeath: 0.009033203
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+time    attacker id     target        id     weapon                                                           ammo                    area    distance old_hp new_hp info    
+1013.0s you      329136 loot_barrel_1 402460 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.7m     32.0   23.0           
+1011.7s you      329136 loot_barrel_1 402460 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.7m     23.0   14.0           
+1010.4s you      329136 loot_barrel_1 402460 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.7m     14.0   5.0            
+1009.1s you      329136 loot_barrel_1 402460 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.7m     5.0    0.0            
+1007.2s you      329136 loot_barrel_2 402463 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.7m     35.0   26.0           
+1005.9s you      329136 loot_barrel_2 402463 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.7m     26.0   17.0           
+1004.6s you      329136 loot_barrel_2 402463 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.8m     17.0   8.0            
+1003.3s you      329136 loot_barrel_2 402463 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.7m     8.0    0.0            
+931.4s  player   110493 you           329136 bow_hunting.entity                                               arrow_wooden            chest   4.4m     55.9   13.4           
+929.4s  player   110493 you           329136 bow_hunting.entity                                               arrow_wooden            hand    4.6m     13.0   3.0            
+927.6s  you      329136 you           329136 N/A                                                              N/A                     generic 1616.0m  3.0    0.0            
+866.9s  you      329136 loot_barrel_1 396640 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab   N/A                     generic 0.8m     50.0   14.0           
+865.6s  you      329136 loot_barrel_1 396640 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab   N/A                     generic 0.6m     14.0   0.0            
+864.4s  you      329136 oil_barrel    396633 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab   N/A                     generic 0.8m     50.0   14.0           
+863.1s  you      329136 oil_barrel    396633 assets/prefabs/weapons/salvaged_axe/axe_salvaged.entity.prefab   N/A                     generic 0.7m     14.0   0.0            
+743.3s  player   184469 you           329136 bow_hunting.entity                                               arrow_wooden            stomach 13.7m    57.3   8.0            
+739.0s  player   184469 you           329136 bow_hunting.entity                                               arrow_wooden            head    10.5m    7.3    0.0            
+738.4s  you      329136 N/A           0      N/A                                                              N/A                     generic 13.4m    0.0    0.0    invalid 
+452.5s  you      329136 loot-barrel-1 410874 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.8m     23.0   14.0           
+451.2s  you      329136 loot-barrel-1 410874 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.8m     14.0   5.0            
+449.9s  you      329136 loot-barrel-1 410874 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     generic 0.7m     5.0    0.0            
+348.5s  you      329136 player        409483 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                     head    0.5m     64.9   44.9           
+348.0s  player   409483 you           329136 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab   N/A                     head    0.2m     47.5   5.0            
+343.3s  you      329136 you           329136 N/A                                                              N/A                     generic 1191.6m  5.0    0.0            
+33.0s   player   215465 you           329136 bow_hunting.entity                                               arrow_wooden            chest   1.9m     61.5   11.5           
+30.5s   you      329136 player        215465 spear_wooden.entity                                              wooden_spear.projectile stomach 7.0m     100.0  64.0           
+16.3s   you      329136 player        221531 assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab N/A                     chest   0.9m     45.8   30.8           
+14.9s   you      329136 player        221531 assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab N/A                     stomach 1.5m     30.6   15.6           
+13.9s   you      329136 player        221531 assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab N/A                     head    0.7m     15.5   8.7            
+9.8s    player   215465 you           329136 bow_hunting.entity                                               arrow_wooden            head    21.5m    6.5    0.0            
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+time    attacker id     target        id     weapon                                                           ammo                      area    distance old_hp new_hp info    
+1043.0s player   184469 you           329136 bow_hunting.entity                                               arrow_wooden              head    10.5m    7.3    0.0            
+1042.4s you      329136 N/A           0      N/A                                                              N/A                       generic 13.4m    0.0    0.0    invalid 
+756.5s  you      329136 loot-barrel-1 410874 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                       generic 0.8m     23.0   14.0           
+755.2s  you      329136 loot-barrel-1 410874 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                       generic 0.8m     14.0   5.0            
+753.9s  you      329136 loot-barrel-1 410874 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                       generic 0.7m     5.0    0.0            
+652.5s  you      329136 player        409483 assets/prefabs/weapons/rock/rock.entity.prefab                   N/A                       head    0.5m     64.9   44.9           
+652.0s  player   409483 you           329136 assets/prefabs/weapons/wooden spear/spear_wooden.entity.prefab   N/A                       head    0.2m     47.5   5.0            
+647.3s  you      329136 you           329136 N/A                                                              N/A                       generic 1191.6m  5.0    0.0            
+337.0s  player   215465 you           329136 bow_hunting.entity                                               arrow_wooden              chest   1.9m     61.5   11.5           
+334.5s  you      329136 player        215465 spear_wooden.entity                                              wooden_spear.projectile   stomach 7.0m     100.0  64.0           
+320.3s  you      329136 player        221531 assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab N/A                       chest   0.9m     45.8   30.8           
+318.8s  you      329136 player        221531 assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab N/A                       stomach 1.5m     30.6   15.6           
+317.9s  you      329136 player        221531 assets/prefabs/weapons/stone pickaxe/stone_pickaxe.entity.prefab N/A                       head    0.7m     15.5   8.7            
+313.8s  player   215465 you           329136 bow_hunting.entity                                               arrow_wooden              head    21.5m    6.5    0.0            
+49.5s   you      329136 player        221531 bow_hunting.entity                                               arrow_wooden              head    11.7m    52.7   0.0            
+40.1s   you      329136 player        282810 bow_hunting.entity                                               arrow_wooden              hand    10.3m    61.5   11.5           
+6.3s    player   91671  you           329136 pistol_semiauto.entity                                           pistolbullet              head    18.6m    64.6   4.0            
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile head    5.5m     90.2   84.6           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile head    5.4m     84.6   78.9           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile head    5.4m     78.9   73.2           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile chest   5.5m     73.2   69.0           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile arm     5.3m     69.0   64.8           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile head    5.4m     64.8   59.1           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile head    5.4m     59.1   53.4           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile head    5.4m     53.4   47.7           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile head    5.4m     47.7   42.0           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile chest   5.5m     42.0   37.8           
+2.4s    you      329136 player        91671  shotgun_waterpipe.entity                                         handmade_shell.projectile chest   5.5m     37.8   33.6           
+2.0s    player   91671  you           329136 pistol_semiauto.entity                                           pistolbullet              chest   4.3m     3.2    3.0            
+1.9s    player   91671  you           329136 pistol_semiauto.entity                                           pistolbullet              head    4.7m     3.0    3.0            
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You died: killed by xuxค  (76561198318813997)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+LocalPlayer.Entity.SecondsSinceDeath: 0.008789063
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You died: killed by Floxxi ッ™ (76561198216095351)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+LocalPlayer.Entity.SecondsSinceDeath: 0.01123047
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+LocalPlayer.Entity.SecondsSinceDeath: 0.3859863
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Quitting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 938 -> priority: 1 
+Steam Client Shutdown
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+

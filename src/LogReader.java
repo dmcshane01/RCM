@@ -19,7 +19,7 @@ public class LogReader {
 	{
 		String temp = log.readLine();
 		logLine = temp.split("\\s+");
-		exchange = new CombatInstance(logLine[0]); //first string is either 'you' or 'player'
+		exchange = new CombatInstance(logLine); //first string is either 'you' or 'player'
 		
 	}
 	
