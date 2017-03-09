@@ -2,7 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class LogReader {
+
+//toadd: when killed give 
+public class LogReader  {
 	
 	ArrayList<CombatInstance> combatList;
 	BufferedReader log;
@@ -12,16 +14,50 @@ public class LogReader {
 	public LogReader(BufferedReader log)
 	{
 		this.log = log;
+		combatList = new ArrayList<CombatInstance>();
 	}
 	
-	
-	public void nextInstance() throws IOException
+	//TimeUnit.SECONDS.sleep(1);
+	//returns false if file is empty
+	public boolean nextInstance() throws IOException
 	{
 		String temp = log.readLine();
+		if(temp == null)
+		{
+			return false;
+		}
 		logLine = temp.split("\\s+");
-		exchange = new CombatInstance(logLine); //first string is either 'you' or 'player'
+	
+	
+		if(CombatInstance.isValid(logLine))
+		{
+			exchange = new CombatInstance(logLine);
+			System.out.println("Add");
+			combatList.add(exchange);
+			return true;
+		}
+		if(logLine == null)
+		{
+			return false;
+		}
+		
+		return true;
+		
 		
 	}
+	
+	public void parseFile() throws IOException 
+	{
+		while(nextInstance())
+		{
+		}
+	}
+	
+	public ArrayList getList()
+	{
+		return combatList;
+	}
+	
 	
 
 
