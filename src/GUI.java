@@ -47,7 +47,11 @@ public class GUI {
 			System.out.println(temp.toString());
 			msg += temp.toString();
 		}
+		
+		output.setText(msg);
+		
 	}
+	
 	
 	private class StartListener implements ActionListener
 	{
@@ -61,6 +65,7 @@ public class GUI {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
+			
 			setTextArea(reader.getList());
 			
 		}
