@@ -53,6 +53,8 @@ public class LogReader  {
 		}
 	}
 	
+	
+	
 	public ArrayList getList()
 	{
 		return combatList;

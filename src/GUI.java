@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 import javax.swing.*;
 
@@ -31,6 +32,7 @@ public class GUI {
 		mainframe = new JFrame();
 		mainframe.setSize(600,600);
 		mainframe.setLayout(new BorderLayout());
+		mainframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		output = new JTextArea();
 		mainframe.add(output, BorderLayout.CENTER);
 		start = new JButton("Start");
@@ -39,6 +41,8 @@ public class GUI {
 		mainframe.setVisible(true);
 	}
 	
+	
+	//change to show last 20 occurences or so
 	public void setTextArea(ArrayList<CombatInstance> in)
 	{
 		String msg = "";
@@ -49,6 +53,7 @@ public class GUI {
 		}
 		
 		output.setText(msg);
+		output.setText("AAAAAAAA0");
 		
 	}
 	
@@ -60,15 +65,31 @@ public class GUI {
 		public void actionPerformed(ActionEvent e) {
 			reader = new LogReader(br);
 			try {
-				reader.parseFile();
+				startLoop();
 			} catch (IOException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
+			} catch(InterruptedException e2)
+			{
+				//donothingrightnow
 			}
 			
-			setTextArea(reader.getList());
+			
 			
 		}
 		
+	}
+	
+	public void startLoop() throws IOException, InterruptedException
+	{
+		while(true)
+		{
+			reader.parseFile();
+			setTextArea(reader.getList());
+			TimeUnit.SECONDS.sleep(5);
+			break;
+			
+
+		}
 	}
 }
