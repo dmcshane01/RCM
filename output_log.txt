@@ -93,9 +93,12 @@ Shader 'Nature/Terrain/Diffuse': dependency 'AddPassShader' shader 'Hidden/Terra
 Shader 'Hidden/TerrainEngine/Splatmap/Specular-AddPass': fallback shader 'Hidden/TerrainEngine/Splatmap/Diffuse-AddPass' not found
 Shader 'Hidden/TerrainEngine/Splatmap/Standard-AddPass': fallback shader 'Hidden/TerrainEngine/Splatmap/Diffuse-AddPass' not found
 desktop: 1920x1080 144Hz; virtual: 3840x1080 at 0,0
-<RI> Initializing input.
-<RI> Input initialized.
-<RI> Initialized touch support.
+<RI> Initializing input.
+
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
 UnloadTime: 1.065247 ms
 Bootstart Startup
  
@@ -638,6 +641,12 @@ You died: killed by Floxxi ッ™ (76561198216095351)
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 LocalPlayer.Entity.SecondsSinceDeath: 0.01123047
+
+
+
+
+
+1.9s    player   91671  you           329136 pistol_semiauto.entity                                           pistolbullet              head    9.7m     3.0    3.0        
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 

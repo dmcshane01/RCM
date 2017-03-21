@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 
 import javax.swing.*;
 
-
 public class GUI {
 
 	private JFrame mainframe;
@@ -18,19 +17,15 @@ public class GUI {
 	private JButton start;
 	private BufferedReader br;
 	LogReader reader;
-	
-	
-	
-	public GUI() throws FileNotFoundException
-	{
+
+	public GUI() throws FileNotFoundException {
 		buildMainFrame();
 		br = new BufferedReader(new FileReader("output_log.txt"));
 	}
-	
-	public void buildMainFrame()
-	{
+
+	public void buildMainFrame() {
 		mainframe = new JFrame();
-		mainframe.setSize(600,600);
+		mainframe.setSize(600, 600);
 		mainframe.setLayout(new BorderLayout());
 		mainframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		output = new JTextArea();
@@ -40,26 +35,20 @@ public class GUI {
 		mainframe.add(start, BorderLayout.SOUTH);
 		mainframe.setVisible(true);
 	}
-	
-	
-	//change to show last 20 occurences or so
-	public void setTextArea(ArrayList<CombatInstance> in)
-	{
+
+	// change to show last 20 occurences or so
+	public void setTextArea(ArrayList<CombatInstance> in) {
+
 		String msg = "";
-		for(CombatInstance temp : in)
-		{
-			System.out.println(temp.toString());
+		for (CombatInstance temp : in) {
 			msg += temp.toString();
 		}
-		
+
 		output.setText(msg);
-		output.setText("AAAAAAAA0");
-		
+
 	}
-	
-	
-	private class StartListener implements ActionListener
-	{
+
+	private class StartListener implements ActionListener {
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -69,27 +58,45 @@ public class GUI {
 			} catch (IOException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
-			} catch(InterruptedException e2)
-			{
-				//donothingrightnow
+			} catch (InterruptedException e2) {
+				// donothingrightnow
 			}
-			
-			
-			
-		}
-		
-	}
-	
-	public void startLoop() throws IOException, InterruptedException
-	{
-		while(true)
-		{
-			reader.parseFile();
-			setTextArea(reader.getList());
-			TimeUnit.SECONDS.sleep(5);
-			break;
-			
 
 		}
+
 	}
-}
+
+	public void startLoop() throws IOException, InterruptedException
+	{
+		Thread t = new Thread(){
+			
+			public void run(){
+		
+		
+		while(true)
+		{
+			
+		try {
+			reader.parseFile();
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		setTextArea(reader.getList());
+		try {
+			sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		}
+			}
+		};
+		t.start();
+	}}
+	
+	
+	
+	
+	
+	
