@@ -664,3 +664,8 @@ Steam Client Shutdown
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
+
+
+
+666s    player   91671  you           329136 pistol_semiauto.entity                                           pistolbullet              head    4.7m     3.0    3.0            
+

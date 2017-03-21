@@ -15,9 +15,10 @@ public class GUI {
 	private JFrame mainframe;
 	private JTextArea output;
 	private JButton start;
+	private JScrollPane sp;
 	private BufferedReader br;
-	LogReader reader;
-
+	private LogReader reader;
+	private boolean active = false;
 	public GUI() throws FileNotFoundException {
 		buildMainFrame();
 		br = new BufferedReader(new FileReader("output_log.txt"));
@@ -29,9 +30,11 @@ public class GUI {
 		mainframe.setLayout(new BorderLayout());
 		mainframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		output = new JTextArea();
-		mainframe.add(output, BorderLayout.CENTER);
 		start = new JButton("Start");
 		start.addActionListener(new StartListener());
+		sp = new JScrollPane(output);
+		sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		mainframe.add(sp, BorderLayout.CENTER);
 		mainframe.add(start, BorderLayout.SOUTH);
 		mainframe.setVisible(true);
 	}
@@ -44,6 +47,7 @@ public class GUI {
 			msg += temp.toString();
 		}
 
+		System.out.println("Add");
 		output.setText(msg);
 
 	}
@@ -52,7 +56,19 @@ public class GUI {
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
+			
+			//remove the start listener from the button
+			for(ActionListener a : start.getActionListeners())
+			{
+				start.removeActionListener(a);
+			}
+			
+			
+			start.addActionListener(new StopListener());
+			start.setText("Stop");
+			
 			reader = new LogReader(br);
+			active = true;
 			try {
 				startLoop();
 			} catch (IOException e1) {
@@ -66,37 +82,48 @@ public class GUI {
 
 	}
 
-	public void startLoop() throws IOException, InterruptedException
-	{
-		Thread t = new Thread(){
-			
-			public void run(){
+	public void startLoop() throws IOException, InterruptedException {
 		
 		
-		while(true)
-		{
-			
-		try {
-			reader.parseFile();
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		setTextArea(reader.getList());
-		try {
-			sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		}
+		Thread t = new Thread() {
+
+			public void run() {
+
+				while (active) {
+
+					try {
+						reader.parseFile();
+						setTextArea(reader.getList());
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+				}
 			}
 		};
+		
 		t.start();
-	}}
+	}//end startLoop()
 	
 	
-	
-	
-	
-	
+	public class StopListener implements ActionListener
+	{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			
+			active = false;
+			
+			for(ActionListener a : start.getActionListeners())
+			{
+				start.removeActionListener(a);
+			}
+			
+			
+			start.addActionListener(new StartListener());
+			start.setText("Start");
+			
+		}
+		
+	}
+}
