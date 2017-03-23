@@ -32,7 +32,6 @@ public class LogReader  {
 		if(CombatInstance.isValid(logLine))
 		{
 			exchange = new CombatInstance(logLine);
-			System.out.println("Add");
 			combatList.add(exchange);
 			return true;
 		}

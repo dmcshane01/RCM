@@ -21,7 +21,7 @@ public class GUI {
 	private boolean active = false;
 	public GUI() throws FileNotFoundException {
 		buildMainFrame();
-		br = new BufferedReader(new FileReader("output_log.txt"));
+		br = new BufferedReader(new FileReader("C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\Rust\\RustClient_Data\\output_log.txt"));
 	}
 
 	public void buildMainFrame() {
@@ -46,8 +46,6 @@ public class GUI {
 		for (CombatInstance temp : in) {
 			msg += temp.toString();
 		}
-
-		System.out.println("Add");
 		output.setText(msg);
 
 	}
