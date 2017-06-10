@@ -1,3 +1,10 @@
+/*
+ * CombatInstance:
+ * The CombatInstance object represents each damage inducing interaction from player combat. It only parses combat instances that were from you -> player/object or other player -> you
+ * Basically  it takes an array of strings as an argument for the constructor, determines if its a combat instance, then formats the output to be more readable
+ */
+
+import java.math.BigDecimal;
 
 public class CombatInstance {
 	
@@ -22,6 +29,8 @@ public class CombatInstance {
 	
 	
 	//Constructor takes in a string array that represents each entry in the combat log
+	//will be fed by LogReader
+	//Constructor calls all the essential methods upon initializatio nso that once you have instantiated A combat intance you only need to call toString
 	public CombatInstance(String[] entry)
 	{
 		this.entry = entry;
@@ -30,42 +39,55 @@ public class CombatInstance {
 		
 	}
 	
+	//remove whitespace from hp values
 	public void formatHPVal()
 	{
 		entry[OLD_HP] = entry[OLD_HP].replaceAll("[^\\d.]", "");
 		entry[NEW_HP] = entry[NEW_HP].replaceAll("[^\\d.]", "");
 	}
-	//sets damage amount done
+	
+	
+	//sets damage amount done using bigDecimal
 	public void calculateDamage()
 	{
-		formatHPVal();
-		damage = Double.parseDouble(entry[OLD_HP]) - Double.parseDouble(entry[NEW_HP]);
+		
+		formatHPVal();		
+		//convert double to bigDecimal because java's double arithmetic is sad
+		BigDecimal oldHP = BigDecimal.valueOf(Double.parseDouble(entry[OLD_HP]));
+		BigDecimal newHP = BigDecimal.valueOf(Double.parseDouble(entry[NEW_HP]));;
+		
+		
+		damage = oldHP.subtract(newHP).doubleValue();
 	}
 	
 	
+	//
 	public void createOutput()
 	{
 		
 		if(entry[ATTACKER].equalsIgnoreCase(you))
 		{
-			output = entry[ATTACKER] + " hit player " + entry[TARGET_ID] + "for " + damage + " with a " + entry[WEAPON] + " from " + entry[DISTANCE] + " " + entry[TIME] + " ago\n";
+			output = entry[TIME] + " ago: " + entry[ATTACKER] + " " + entry[ATTACKER_ID] +  " hit player " + entry[TARGET_ID] + " for " + damage + " with a " + entry[WEAPON] + " from " + entry[DISTANCE] + "\n";
 		}
 		else if(entry[ATTACKER].equalsIgnoreCase(player))
 		{
-			output =  entry[ATTACKER] + " " + entry[ATTACKER_ID] + "Hit you with a "+ entry[WEAPON] + "for " + damage + " from " + entry[DISTANCE] + " " + entry[TIME] + " ago\n";
+			output =  entry[TIME] + " ago: " + entry[ATTACKER] + " " + entry[ATTACKER_ID] + " Hit you with a "+ entry[WEAPON] + "for " + damage + " from " + entry[DISTANCE] + " " + entry[TIME]+ "\n";
 
 		}
 		
 	}
 	
 	
+	//static method that determines if a line read is a valid combat instance and not garbage
 	public static boolean isValid(String[] line)
 	{
 		
+		//if the input line is null or less than 6 entries long, we know it is not a valid combat instance
 		if(line == null || line.length < 6)
 		{
 			return false;
 		}
+		//if we know its not null and is >= 6 entries, all we need to determine is if the first entry is 'you' or 'Player' to determine validity
 		if(line[ATTACKER].equals(you) || line[TARGET].equals(you))
 			return true;
 		return false;

@@ -28,9 +28,10 @@ public class LogReader  {
 		}
 		logLine = temp.split("\\s+");
 	
-	
+		
 		if(CombatInstance.isValid(logLine))
 		{
+			System.out.println("1");
 			exchange = new CombatInstance(logLine);
 			combatList.add(exchange);
 			return true;

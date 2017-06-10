@@ -20,8 +20,10 @@ public class GUI {
 	private LogReader reader;
 	private boolean active = false;
 	public GUI() throws FileNotFoundException {
-		buildMainFrame();
+		//C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\Rust\\RustClient_Data\\
 		br = new BufferedReader(new FileReader("C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\Rust\\RustClient_Data\\output_log.txt"));
+		buildMainFrame();
+		
 	}
 
 	public void buildMainFrame() {
@@ -82,19 +84,25 @@ public class GUI {
 
 	public void startLoop() throws IOException, InterruptedException {
 		
-		
 		Thread t = new Thread() {
-
+			int count = 0;
+			
 			public void run() {
 
 				while (active) {
-
+					count++;
+					//System.out.println(count);
 					try {
 						reader.parseFile();
+						sleep(100);
 						setTextArea(reader.getList());
+						output.setCaretPosition(output.getDocument().getLength());
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
 					}
 				}
 			}
