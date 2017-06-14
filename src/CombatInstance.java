@@ -11,6 +11,8 @@ public class CombatInstance {
 	
 	int type; //type = 0 if player is attacker, 1 if opponent is attacker
 	String[] entry; //attacker reads from log either "You" or "Player"
+	
+	//
 	final static String you = "you";
 	final static String player = "player";
 	final static int TIME = 0;
@@ -64,7 +66,7 @@ public class CombatInstance {
 	//
 	public void createOutput()
 	{
-		
+		/*
 		if(entry[ATTACKER].equalsIgnoreCase(you))
 		{
 			output = entry[TIME] + " ago: " + entry[ATTACKER] + " " + entry[ATTACKER_ID] +  " hit player " + entry[TARGET_ID] + " for " + damage + " with a " + entry[WEAPON] + " from " + entry[DISTANCE] + "\n";
@@ -74,7 +76,17 @@ public class CombatInstance {
 			output =  entry[TIME] + " ago: " + entry[ATTACKER] + " " + entry[ATTACKER_ID] + " Hit you with a "+ entry[WEAPON] + "for " + damage + " from " + entry[DISTANCE] + " " + entry[TIME]+ "\n";
 
 		}
-		
+		*/
+		//entry[WEAPON] = entry[WEAPON].split("\n")
+		if(entry[ATTACKER].equalsIgnoreCase(you))
+		{
+			output = entry[TIME] + " ago: " + entry[ATTACKER] +  " hit player " + entry[TARGET_ID] + " in the " + entry[AOI] + " for " + damage + " from " + entry[DISTANCE] + " to " + entry[NEW_HP] +  "\n";
+		}
+		else if(entry[ATTACKER].equalsIgnoreCase(player))
+		{
+			output =  entry[TIME] + " ago you were hit with a "+ entry[WEAPON] + "for " + damage + " from " + entry[DISTANCE] + "\n";
+
+		}
 	}
 	
 	
@@ -83,13 +95,15 @@ public class CombatInstance {
 	{
 		
 		//if the input line is null or less than 6 entries long, we know it is not a valid combat instance
-		if(line == null || line.length < 6)
+		if(line == null || line.length < 10 || line[AOI].equals("generic"))
 		{
 			return false;
 		}
-		//if we know its not null and is >= 6 entries, all we need to determine is if the first entry is 'you' or 'Player' to determine validity
-		if(line[ATTACKER].equals(you) || line[TARGET].equals(you))
+		else if(line[ATTACKER].equals(you) || line[TARGET].equals(you))
+		{
 			return true;
+
+		}
 		return false;
 	}
 

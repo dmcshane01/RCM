@@ -2,6 +2,7 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -16,12 +17,16 @@ public class GUI {
 	private JTextArea output;
 	private JButton start;
 	private JScrollPane sp;
+	private File logFile;
 	private BufferedReader br;
 	private LogReader reader;
 	private boolean active = false;
 	public GUI() throws FileNotFoundException {
 		//C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\Rust\\RustClient_Data\\
-		br = new BufferedReader(new FileReader("C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\Rust\\RustClient_Data\\output_log.txt"));
+		//br = new BufferedReader(new FileReader("C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\Rust\\RustClient_Data\\output_log.txt"));
+		openFileChooser();
+		br = new BufferedReader(new FileReader(logFile));
+
 		buildMainFrame();
 		
 	}
@@ -41,14 +46,35 @@ public class GUI {
 		mainframe.setVisible(true);
 	}
 
-	// change to show last 20 occurences or so
 	public void setTextArea(ArrayList<CombatInstance> in) {
-
 		String msg = "";
-		for (CombatInstance temp : in) {
-			msg += temp.toString();
+		int counter;
+		
+		if(in.size() < 20 && in.size() >0)
+		{
+			counter = 20 - in.size();
+			while(counter < in.size())
+			{
+				System.out.println();
+				counter++;
+			}
+			for (CombatInstance temp : in) {
+				msg += temp.toString();
+			}
+			output.setText(msg);
 		}
-		output.setText(msg);
+		else
+		{
+			for(int i = in.size() - 20; i <= in.size() -1; i++)
+			{
+				msg +=  in.get(i);
+			}
+			output.setText(msg);
+
+			
+		}
+		
+		
 
 	}
 
@@ -82,6 +108,22 @@ public class GUI {
 
 	}
 
+	public void openFileChooser()
+	{
+		final JFileChooser fileChooser = new JFileChooser();
+		
+		int rVal = fileChooser.showOpenDialog(mainframe);
+		//mainframe.setVisible(true);
+		if(rVal == fileChooser.APPROVE_OPTION)
+		{
+			logFile = fileChooser.getSelectedFile();
+		}
+		else
+		{
+			//todo
+			System.exit(0);
+		}
+	}
 	public void startLoop() throws IOException, InterruptedException {
 		
 		Thread t = new Thread() {
@@ -93,10 +135,15 @@ public class GUI {
 					count++;
 					//System.out.println(count);
 					try {
-						reader.parseFile();
-						sleep(100);
-						setTextArea(reader.getList());
-						output.setCaretPosition(output.getDocument().getLength());
+						//System.out.println("here");
+						if(reader.parseFile())
+						{
+							System.out.println("here");
+							setTextArea(reader.getList());
+							output.setCaretPosition(output.getDocument().getLength());	
+						}
+						sleep(1000);
+						
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
